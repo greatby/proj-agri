@@ -32,12 +32,12 @@ export default function Navbar() {
         </nav>
 
         {/* Desktop CTA */}
-        <a
+        {/* <a
           href="#contact"
           className="hidden md:inline-block bg-[#2d5016] text-white px-5 py-2.5 rounded-full text-sm font-semibold shadow hover:bg-primary/90 transition"
         >
           Get Quote
-        </a>
+        </a> */}
 
         {/* Mobile Menu Button */}
         <button
@@ -85,13 +85,13 @@ export default function Navbar() {
           </a>
 
           {/* Mobile CTA */}
-          <a
+          {/* <a
             href="#contact"
             onClick={() => setOpen(false)}
             className="bg-[#2d5016] text-white w-full text-center px-5 py-2.5 rounded-full text-sm font-semibold shadow hover:bg-primary/90 transition"
           >
             Get Quote
-          </a>
+          </a> */}
         </nav>
       </div>
     </header>

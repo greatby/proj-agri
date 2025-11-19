@@ -45,7 +45,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>Email: hello@epfdesk.com</li>
               <li>Phone: +919945933333</li>
-              <li>Location: India</li>
+              <li>Location: 62/63 Church Street, Bengaluru, Karnataka, 560001</li>
             </ul>
           </div>
         </div>
