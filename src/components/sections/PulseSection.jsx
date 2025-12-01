@@ -3,7 +3,7 @@ export default function PulsesSection() {
     <div className="space-y-8">
       <header className="space-y-3">
         <h2 className="text-2xl md:text-3xl font-semibold text-[#2d5016]">
-          🫘 Pulses – Protein Powerhouses of India
+          🌾 Pulses – Protein Powerhouses of India
         </h2>
         <p className="text-sm md:text-base text-slate-700">
           Pulses are central to Indian food culture and a crucial protein source

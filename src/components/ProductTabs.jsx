@@ -13,10 +13,6 @@ const TABS = [
   { id: "rice", label: "Rice" },
   { id: "wheat", label: "Wheat" },
   { id: "pulses", label: "Pulses" },
-  // { id: "millets", label: "Millets" },
-  // { id: "spices", label: "Spices" },
-  // { id: "beverages", label: "Tea & Coffee" },
-  // { id: "produce", label: "Fruits & Vegetables" }
 ];
 
 export default function ProductTabs() {
@@ -32,10 +28,7 @@ export default function ProductTabs() {
         return <WheatSection />;
       case "pulses":
         return <PulsesSection />;
-      // case "millets": return <MilletsSection />;
-      // case "spices": return <SpicesSection />;
-      // case "beverages": return <BeveragesSection />;
-      // case "produce": return <ProduceSection />;
+
       default:
         return <HomeSection />;
     }
